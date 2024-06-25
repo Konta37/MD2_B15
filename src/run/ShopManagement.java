@@ -30,10 +30,10 @@ public class ShopManagement {
             int choice = Integer.parseInt(sc.nextLine());
             switch (choice) {
                 case 1:
-                    CategoriesManagement.cateMenu(sc);
+                    CategoriesService.cateMenu(sc);
                     break;
                 case 2:
-                    ProductManagement.productMenu(sc);
+                    ProductService.productMenu(sc);
                     break;
                 case 3:
                     System.exit(0);

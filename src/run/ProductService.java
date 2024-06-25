@@ -2,14 +2,11 @@ package run;
 
 import color.ColorStorage;
 import comparator.PriceComparator;
-import entity.Categories;
 import entity.Product;
 
-import java.util.Arrays;
-import java.util.Comparator;
 import java.util.Scanner;
 
-public class ProductManagement {
+public class ProductService {
     public static void productMenu(Scanner sc) {
         //create color
         String borderColor = ColorStorage.BLUE;

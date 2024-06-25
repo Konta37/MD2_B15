@@ -5,7 +5,7 @@ import entity.Categories;
 
 import java.util.Scanner;
 
-public class CategoriesManagement {
+public class CategoriesService {
     public static void cateMenu(Scanner sc) {
         //create color
         String borderColor = ColorStorage.BLUE;
@@ -113,6 +113,7 @@ public class CategoriesManagement {
                         return;
                     }else {
                         System.out.println("Can't delete category with id " + cataId + ". Because it has products");
+                        return;
                     }
 
                 }else {
